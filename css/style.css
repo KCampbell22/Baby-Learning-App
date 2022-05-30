@@ -1,0 +1,171 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: auto;
+    margin: 3rem auto;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-content: center;
+    border-radius: 35px;
+    padding: 4rem 3rem;
+    background: rgb(5,178,208);
+    background: -moz-linear-gradient(42deg, rgba(5,178,208,1) 0%, rgba(102,150,179,1) 33%, rgba(220,117,143,1) 53%, rgba(220,117,143,1) 83%);
+    background: -webkit-linear-gradient(42deg, rgba(5,178,208,1) 0%, rgba(102,150,179,1) 33%, rgba(220,117,143,1) 53%, rgba(220,117,143,1) 83%);
+    background: linear-gradient(42deg, rgba(5,178,208,1) 0%, rgba(102,150,179,1) 33%, rgba(220,117,143,1) 53%, rgba(220,117,143,1) 83%);
+    Filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#05b2d0",endColorstr="#dc758f",GradientType=1);
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.5);
+}
+.flex-item{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2196F3;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 12rem;
+    height: 12rem;
+
+}
+button:hover{
+    background-color: #0b7dda;
+}
+.wrapper > div{
+    margin-left: 10px;
+}
+.wrapper > div > input{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
+    width: 100%;
+}
+.wrapper > div > input:focus{
+    outline: none;
+}
+.wrapper > div > label{
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+}
+.wrapper > div > h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #666;
+}
+.wrapper > div > h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #666;
+}
+.wrapper > div > h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+}
+.wrapper > div > h5{
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+}
+.wrapper > div > h6{
+    font-size: 10px;
+    font-weight: 500;
+    color: #666;
+}
+.wrapper > div > p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+}
+.wrapper > div > select{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
+    width: 100%;
+}
+
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.311);
+    padding-bottom: 15px;
+    max-height: 151px; ;
+    box-shadow: 0 3px 4px rgb(0 0 0 / 8%);;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 15px;
+}
+
+li{
+    list-style: none;
+    margin-left: 20px
+}
+
+.nav-link, .nav-link:visited{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+main{
+    width: 100%;
+}
+
+.games-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid rgba(128, 128, 128, 0.245);
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.095);
+    width: 70%;
+    margin: 15px;
+
+}
+.description{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 575.98px) {
+    .games-wrapper{
+        flex-direction: column;
+    }
+}
+
+
+
+.game-list-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 75%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 15px;
+}
