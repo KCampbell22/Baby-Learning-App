@@ -157,6 +157,10 @@ main{
         flex-direction: column;
         width: 80%;
     }
+    .flex-item{
+        width: 5rem;
+        height: 5rem;
+    }
 }
 
 
